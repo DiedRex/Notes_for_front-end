@@ -12,4 +12,5 @@
 9. v-bind:class="{ active: isActive, 'text-danger': hasError }"绑定多个样式
 	- 使用时，data{isActive:true(false),hasError:true(false)}
 10. data也可以被类型嵌套使用。
-11.  v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }可以直接绑定样式
+11. v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }可以直接绑定样式
+12. 全局指令由directive在'script'标签下注册，局部指令在根之下用'directives'属性注册
